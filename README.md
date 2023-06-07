@@ -4,6 +4,12 @@
 [![Autobahn Testsuite](https://img.shields.io/badge/Autobahn-passing-brightgreen.svg)](http://socketo.me/reports/ab/index.html)
 [![Latest Stable Version](https://poser.pugx.org/cboden/ratchet/v/stable.png)](https://packagist.org/packages/cboden/ratchet)
 
+#### __________
+#### 2023
+Just the same original project from cboden just adding the method getResourceId() to the ConnectionInterface 
+
+#### __________
+
 A PHP library for asynchronously serving WebSockets.
 Build up your application through simple interfaces and re-use your application without changing any of its code just by combining different components.
 

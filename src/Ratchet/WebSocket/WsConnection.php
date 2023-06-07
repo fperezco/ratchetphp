@@ -42,4 +42,9 @@ class WsConnection extends AbstractConnectionDecorator {
 
         $this->WebSocket->closing = true;
     }
+
+    public function getResourceId()
+    {
+        return $this->resourceId;
+    }
 }

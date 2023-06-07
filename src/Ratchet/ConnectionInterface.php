@@ -23,4 +23,10 @@ interface ConnectionInterface {
      * Close the connection
      */
     function close();
+
+    /**
+     * Get the internal id of the connection
+     * @return string
+     */
+    public function getResourceId();
 }
