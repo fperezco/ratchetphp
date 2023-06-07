@@ -1,19 +1,19 @@
 {
-    "name": "cboden/ratchet"
+    "name": "fperezco/ratchetphp"
   , "type": "library"
-  , "description": "PHP WebSocket library"
+  , "description": "A fork of PHP WebSocket library from cboden/ratchet"
   , "keywords": ["WebSockets", "Server", "Ratchet", "Sockets", "WebSocket"]
-  , "homepage": "http://socketo.me"
   , "license": "MIT"
   , "authors": [
         {
-            "name": "Chris Boden"
-          , "email": "cboden@gmail.com"
+            "name": "Paco Perez"
+          , "email": "p.perez@wata.es"
           , "role": "Developer"
         }
       , {
-            "name": "Matt Bonneau"
-          , "role": "Developer"
+          "name": "Chris Boden"
+        , "email": "cboden@gmail.com"
+        , "role": "Developer"
         }
     ]
   , "support": {
