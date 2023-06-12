@@ -35,4 +35,14 @@ class IoConnection implements ConnectionInterface {
     public function close() {
         $this->conn->end();
     }
+
+    public function getResourceId()
+    {
+        return $this->resourceId;
+    }
+
+    public function getHttpRequest()
+    {
+        return $this->httpRequest;
+    }
 }

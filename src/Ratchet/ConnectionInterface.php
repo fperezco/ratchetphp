@@ -1,6 +1,9 @@
 <?php
 namespace Ratchet;
 
+use http\Env\Request;
+use HttpRequest;
+
 /**
  * The version of Ratchet being used
  * @var string
@@ -31,8 +34,7 @@ interface ConnectionInterface {
     public function getResourceId();
 
     /**
-     * Get the httprequest of the incoming connection
-     * @return string
+     * Get the Request of the incoming connection
      */
     public function getHttpRequest();
 }
