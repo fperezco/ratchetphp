@@ -6,7 +6,7 @@
 
 #### __________
 #### 2023
-Just the same original project from cboden just adding the method getResourceId() to the ConnectionInterface 
+Just the same original project from cboden just adding the method getResourceId() and method getHttpRequest() to the ConnectionInterface 
 
 #### __________
 

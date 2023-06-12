@@ -29,4 +29,10 @@ interface ConnectionInterface {
      * @return string
      */
     public function getResourceId();
+
+    /**
+     * Get the httprequest of the incoming connection
+     * @return string
+     */
+    public function getHttpRequest();
 }

@@ -47,4 +47,9 @@ class WsConnection extends AbstractConnectionDecorator {
     {
         return $this->resourceId;
     }
+
+    public function getHttpRequest()
+    {
+        return $this->httpRequest;
+    }
 }
