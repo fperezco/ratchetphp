@@ -112,4 +112,9 @@ class WampConnection extends AbstractConnectionDecorator {
         $this->getConnection()->close($opt);
     }
 
+    public function getRemoteAddress()
+    {
+        return $this->getConnection()->getRemoteAddress();
+    }
+
 }

@@ -37,4 +37,9 @@ interface ConnectionInterface {
      * Get the Request of the incoming connection
      */
     public function getHttpRequest();
+
+    /**
+     * Get the remote address of the connection
+     */
+    public function getRemoteAddress();
 }

@@ -17,4 +17,19 @@ class Connection implements ConnectionInterface {
     public function close() {
         $this->last[__FUNCTION__] = true;
     }
+
+    public function getRemoteAddress()
+    {
+        return $this->remoteAddress;
+    }
+
+    public function getResourceId()
+    {
+        return "";
+    }
+
+    public function getHttpRequest()
+    {
+        return "";
+    }
 }

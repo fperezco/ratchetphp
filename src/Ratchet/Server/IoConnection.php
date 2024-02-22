@@ -38,11 +38,16 @@ class IoConnection implements ConnectionInterface {
 
     public function getResourceId()
     {
-        return $this->resourceId;
+        return $this->conn->resourceId;
     }
 
     public function getHttpRequest()
     {
-        return $this->httpRequest;
+        return $this->conn->httpRequest;
+    }
+
+    public function getRemoteAddress()
+    {
+        return $this->conn->getRemoteAddress();
     }
 }

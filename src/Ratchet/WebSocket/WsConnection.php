@@ -52,4 +52,9 @@ class WsConnection extends AbstractConnectionDecorator {
     {
         return $this->httpRequest;
     }
+
+    public function getRemoteAddress()
+    {
+        return $this->getConnection()->getRemoteAddress();
+    }
 }
