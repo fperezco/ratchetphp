@@ -1,6 +1,6 @@
 {
   "name": "fperezco/ratchetphp",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "library",
   "description": "A fork of PHP WebSocket library from cboden/ratchet",
   "keywords": [
